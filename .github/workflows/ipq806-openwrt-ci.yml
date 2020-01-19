@@ -5,7 +5,7 @@
 # Author: P3TERX
 # Blog: https://p3terx.com
 #=================================================
-name: ipq806-OpenWrt-CI
+name: Ipq806-OpenWrt-CI
 
 on:
   schedule:
