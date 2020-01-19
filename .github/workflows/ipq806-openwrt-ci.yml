@@ -31,7 +31,7 @@ jobs:
     - name: Clone source code
       env: 
         REPO_URL: https://github.com/ferre-han/openwrt
-        REPO_BRANCH: my-ipq806-r7800
+        REPO_BRANCH: master
       run: git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
